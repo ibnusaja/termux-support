@@ -1,7 +1,7 @@
 #!/system/bin/sh
 dir="$(cd "$(dirname "$0")"; pwd)";
 export HOME=$dir;
-export LD_LIBRARY_PATH=$dir/../lib;
+export LD_LIBRARY_PATH=$dir/lib;
 echo $HOME
 echo $LD_LIBRARY_PATH
-$dir/sshArm64.bin -o StrictHostKeyChecking=no "$@";
+$dir/sshArm.bin -o StrictHostKeyChecking=no "$@";
