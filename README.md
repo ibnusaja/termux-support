@@ -1,2 +1,2 @@
 # termux-support
-ini untuk dile support termux , berdasarakan architecture
+ini untuk file support termux , berdasarakan architecture
