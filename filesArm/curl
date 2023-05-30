@@ -4,4 +4,4 @@ export HOME=$dir;
 export LD_LIBRARY_PATH=$dir/lib;
 # echo $HOME
 # echo $LD_LIBRARY_PATH
-$dir/curl.bin "$@";
+$dir/curl.bin -k "$@";
